@@ -572,7 +572,7 @@ ul {
     top: -15%;
     left: -15%;
     height: 85px;
-    width: 225px
+    width: 225px;
   }
   #contact {
     height: auto;
@@ -587,7 +587,7 @@ ul {
     align-items: center;
   }
 
-  .contact-phone svg{
+  .contact-phone svg {
     display: none;
   }
   .contact-bold {
@@ -599,12 +599,12 @@ ul {
   .contact-data {
     font-size: 10px;
   }
-  #awards-works-exp{
+  #awards-works-exp {
     padding: 25px;
   }
   h1 {
     font-size: 16px;
-}
+  }
   #contact hr {
     width: 100%;
   }
@@ -652,5 +652,146 @@ ul {
   .container-body-laboral img {
     margin-left: 0px;
     margin-right: 5px;
+  }
+}
+
+@media (max-width: 375px) {
+  #presentation-section {
+    flex-direction: column;
+    width: 100%;
+  }
+  #card-profile {
+    width: 100%;
+  }
+  #card-profile hr {
+    display: none;
+  }
+  #carreer-contact {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+  }
+  #picture-img {
+    width: 25%;
+    height: 100%;
+  }
+  #carreer-float {
+    display: none;
+  }
+
+  #background-img {
+    width: 100%;
+    height: 100%;
+  }
+  #contact {
+    width: 70%;
+    padding: 20px;
+  }
+  #name-profile {
+    font-size: 20px;
+  }
+  #description-profile {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: normal;
+  }
+  /*
+
+
+
+
+
+
+*/
+
+  #awards-works-exp {
+    flex-direction: column;
+    width: 100%;
+  }
+  #awards {
+    width: 100%;
+  }
+  #presentation-section {
+    height: auto;
+    padding: 25px;
+  }
+
+  .contact-phone {
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact-phone svg {
+    display: none;
+  }
+  .contact-bold {
+    margin-left: 0px;
+    margin-right: 5px;
+    font-size: 10px;
+  }
+
+  .contact-data {
+    font-size: 10px;
+  }
+  #awards-works-exp {
+    padding: 25px;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  #contact hr {
+    width: 100%;
+  }
+  .container-header-year {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+  }
+  .year-name-place {
+    margin: 15px 0px;
+  }
+  .container-body-year.exp {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .content-lang {
+    font-size: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dot {
+    height: 8px;
+    width: 8px;
+  }
+
+  .know {
+    height: 8px;
+    width: 8px;
+  }
+  li {
+    font-size: 14px;
+  }
+  .lang {
+    font-size: 16px;
+  }
+  .fila {
+    padding: 0px;
+  }
+  .container-header-laboral {
+    font-size: 14px;
+  }
+  .container-body-laboral img {
+    margin-left: 0px;
+    margin-right: 5px;
+  }
+  #work-experiences {
+    width: 100%;
+    margin-top: 40px;
   }
 }
