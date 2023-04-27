@@ -420,16 +420,18 @@ ul {
 
   .content-lang {
     font-size: 14px;
+    flex-direction: column;
+    align-items: start;
   }
 
   .dot {
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
   }
 
   .know {
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
   }
 
   li {
@@ -437,7 +439,10 @@ ul {
   }
 
   .lang {
-    font-size: 12px;
+    font-size: 14px;
+    font-family: news-italic;
+    color: #433f40;
+    margin-bottom: 5px;
   }
   .fila {
     padding: 10px;
@@ -528,8 +533,124 @@ ul {
   }
   .container-header-laboral {
     font-size: 14px;
-}
+  }
+  .container-body-laboral img {
+    margin-left: 0px;
+    margin-right: 5px;
+  }
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 376px) and (max-width: 767px) {
+  #carreer-float {
+    display: none;
+  }
+  #card-profile {
+    width: 50%;
+  }
+  #name-profile {
+    font-size: 20px;
+  }
+  #description-profile {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: normal;
+  }
+  #carreer-contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  #presentation-section {
+    height: auto;
+    padding: 25px;
+  }
+  #picture-img {
+    width: 75%;
+  }
+
+  #carreer-float {
+    top: -15%;
+    left: -15%;
+    height: 85px;
+    width: 225px
+  }
+  #contact {
+    height: auto;
+    padding: 0px;
+    justify-content: flex-start;
+    width: 90%;
+    align-items: flex-start;
+  }
+  .contact-phone {
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-phone svg{
+    display: none;
+  }
+  .contact-bold {
+    margin-left: 0px;
+    margin-right: 5px;
+    font-size: 10px;
+  }
+
+  .contact-data {
+    font-size: 10px;
+  }
+  #awards-works-exp{
+    padding: 25px;
+  }
+  h1 {
+    font-size: 16px;
+}
+  #contact hr {
+    width: 100%;
+  }
+  .container-header-year {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+  }
+  .year-name-place {
+    margin: 15px 0px;
+  }
+  .container-body-year.exp {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .content-lang {
+    font-size: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dot {
+    height: 8px;
+    width: 8px;
+  }
+
+  .know {
+    height: 8px;
+    width: 8px;
+  }
+  li {
+    font-size: 14px;
+  }
+  .lang {
+    font-size: 10px;
+    width: 30px;
+  }
+  .fila {
+    padding: 0px;
+  }
+  .container-header-laboral {
+    font-size: 14px;
+  }
+  .container-body-laboral img {
+    margin-left: 0px;
+    margin-right: 5px;
+  }
 }
