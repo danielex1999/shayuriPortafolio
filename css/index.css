@@ -797,5 +797,8 @@ ul {
   }
   .year-marco {
     margin-bottom: 10px;
-}
+  }
+  .year-marco-extend {
+    margin-bottom: 10px;
+  }
 }
