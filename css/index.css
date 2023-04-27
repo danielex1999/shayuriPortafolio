@@ -36,10 +36,10 @@ h1 {
   color: #2a2721;
 }
 
-h6{
-    font-size: 16px;
-    font-family: news-italic;
-    font-style: italic;
+h6 {
+  font-size: 16px;
+  font-family: news-italic;
+  font-style: italic;
 }
 #presentation-section {
   width: 100%;
@@ -117,10 +117,17 @@ h6{
   width: 100%;
   height: 100%;
 }
-#ending-awards{
-    padding-bottom: 20px;
-    border-bottom: 3px solid #433f40;
+#ending-awards {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #433f40;
 }
+
+#ending-awards2 {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #433f40;
+  margin-bottom: 30px;
+}
+
 #name-picture {
   font-family: news-italic;
   font-size: 25px;
@@ -209,7 +216,13 @@ svg {
   margin-bottom: 25px;
   margin-top: 25px;
 }
-
+.year-name-place-1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
 .container-header-year {
   width: 100%;
   display: flex;
@@ -233,19 +246,19 @@ svg {
   margin: auto;
 }
 .year-marco-extend {
-    border: 1px solid #433f40;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px 15px;
-    position: relative;
-    margin-right: 30px;
-  }
+  border: 1px solid #433f40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 15px;
+  position: relative;
+  margin-right: 30px;
+}
 .year-marco-extend div {
-    position: absolute;
-    right: -10%;
-    margin: auto;
-  }
+  position: absolute;
+  right: -10%;
+  margin: auto;
+}
 .arrow-1 {
   height: 0px;
   width: 0px;
@@ -254,70 +267,110 @@ svg {
   transform: rotate(45deg);
 }
 
-.name-place .name{
-    font-weight: bold;
+.name-place .name {
+  font-weight: bold;
 }
 
-.name-place .place{
-    font-weight: 100;
+.name-place .place {
+  font-weight: 100;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-#work-experiences{
-    width: 60%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+#work-experiences {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-.container-body-year.exp{
-    margin-left: 95px;
-    width: 75%;
-    text-align: justify;
+.container-body-year.exp {
+  margin-left: 95px;
+  width: 75%;
+  text-align: justify;
+}
+.container-body-laboral {
+  display: flex;
+  align-items: center;
 }
 
+.container-body-laboral img {
+  width: 20px;
+  height: 20px;
+  margin-left: 40px;
+  margin-right: 10px;
+}
 #awards hr {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    border: 1px solid #433f40;
-  }
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #433f40;
+}
 
-.container-body-year-extend{
-    margin-left: 15%;
-    width: 70%;
-    text-align: justify;
+.container-body-year-extend {
+  margin-left: 15%;
+  width: 70%;
+  text-align: justify;
 }
 
 .dot {
-    height: 25px;
-    width: 25px;
-    background-color: #413E39;
-    border-radius: 50%;
-    display: inline-block;
-  }
+  height: 25px;
+  width: 25px;
+  background-color: #413e39;
+  border-radius: 50%;
+  display: inline-block;
+}
 
-.know{
-    height: 25px;
-    width: 25px;
-    background-color: #DA7022;
-    border-radius: 50%;
-    display: inline-block;
+.know {
+  height: 25px;
+  width: 25px;
+  background-color: #da7022;
+  border-radius: 50%;
+  display: inline-block;
 }
-.languages{
-    width: 100%;
-    margin-top: 30px;
+.languages {
+  width: 100%;
+  margin-top: 30px;
 }
-  .content-lang{
+.content-lang {
+  width: 100%;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  margin: 20px 30px;
+  font-size: 20px;
+  color: #433f40;
+  font-weight: bold;
+}
+
+ul {
+  width: 100%;
+}
+
+.container-header-laboral {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.columa{
     width: 100%;
     display: flex;
-    height: 40px;
-    align-items: center;
-    justify-content: space-between;
-  }
+}
+.fila{
+    width: 50%;
+    padding: 20px;
+}
